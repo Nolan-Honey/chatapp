@@ -1,0 +1,47 @@
+#scrollBoxPastMessages{
+    height:18%;
+    width:90%;
+    overflow:auto;
+    background-color:rgb(96, 143, 106);
+    color:rgb(0, 0, 0);
+    scrollbar-base-color:gold;
+    font-family:sans-serif;
+    padding:10px;
+    bottom: 0;
+    position: fixed;
+    opacity: 0.5;
+}
+
+.PastMessageTableRow{
+    border: 1px solid black;
+    opacity: 1;
+}
+
+#tablePastMessages{
+    width:99%;
+}
+
+#bottomBoxHeader{
+    bottom: 18%;
+    position: fixed;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#localMessageHistory{
+    min-height: 350px;
+    height:350px;
+    width:58%;
+    overflow:auto;
+    background-color:rgb(208, 208, 243);
+    color:rgb(0, 0, 0);
+    scrollbar-base-color:gold;
+    font-family:sans-serif;
+    padding-top:20px;
+    margin: auto;
+    opacity: 0.5;
+
+}
+body{
+    background-image: url("/resources/bg5.jpg");
+}
